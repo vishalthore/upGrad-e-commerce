@@ -1,0 +1,33 @@
+.confirm {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.invoice-card {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-details {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.address {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.product-item {
+    margin-bottom: 15px;
+}
+
+h2, h3, h4 {
+    margin: 0 0 10px;
+}

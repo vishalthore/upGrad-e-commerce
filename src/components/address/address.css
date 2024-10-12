@@ -1,0 +1,28 @@
+.address-container{
+    height: 89vh;
+    width: 100%;
+    padding: 2rem;
+}
+.progress-indicator {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.progress-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.progress-item span {
+ background-color: blue;
+ font-size: 0.75rem;
+ font-weight: 600;
+ color: white;
+ padding: 3px;
+ border-radius: 50%;
+}
+.progress-item.disabled span {
+ background-color: gray;
+}
